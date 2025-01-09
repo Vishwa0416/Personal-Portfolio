@@ -5,7 +5,7 @@ import figma from "./assets/images/Skills/flutter.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
+import nodejs from "./assets/images/Skills/laravel.png";
 import python from "./assets/images/Skills/python.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
@@ -61,7 +61,7 @@ export const content = {
     title: "Software Developer",
     firstName: "Vishwa",
     LastName: "Wijesekare",
-    btnText: "Hire Me",
+    btnText: "Contact Me",
     image: Hero_person,
     hero_content: [
       {
@@ -84,8 +84,8 @@ export const content = {
         logo: figma,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        name: "Laravel",
+        para: "Laravel development",
         logo: nodejs,
       },
       {
@@ -126,7 +126,7 @@ export const content = {
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
+        title: "Mobile Application Development",
         para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
         logo: services_logo3,
       },
