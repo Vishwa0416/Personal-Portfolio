@@ -3,10 +3,10 @@ import Hero_person from "./assets/images/Hero/man3.png";
 
 import figma from "./assets/images/Skills/flutter.png";
 import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
+import ps from "./assets/images/Skills/github.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/laravel.png";
-import python from "./assets/images/Skills/python.png";
+import python from "./assets/images/Skills/mongodb.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
@@ -80,7 +80,7 @@ export const content = {
     skills_content: [
       {
         name: "Flutter",
-        para: "flutter frontend development",
+        para: "Flutter frontend development",
         logo: figma,
       },
       {
@@ -89,8 +89,8 @@ export const content = {
         logo: nodejs,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
+        name: "Github",
+        para: "Github Version Control",
         logo: ps,
       },
       {
@@ -104,8 +104,8 @@ export const content = {
         logo: sketch,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
+        name: "MongoDB",
+        para: "MongoDB Database",
         logo: python,
       },
     ],
@@ -194,12 +194,12 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "araliyawijesakare@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:araliyawijesakare@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+94 70 233 1284",
         icon: MdCall,
         link: "https://wa.me/1234567890",
       },
