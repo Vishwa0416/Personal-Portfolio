@@ -138,15 +138,15 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "TravPlan Application",
         image: project1,
       },
       {
-        title: "Social Media web",
+        title: "MedAssist Application",
         image: project2,
       },
       {
-        title: "Creative Website",
+        title: "AgriConnect Application",
         image: project3,
       },
     ],
