@@ -2,7 +2,7 @@
 import Hero_person from "./assets/images/Hero/man3.png";
 
 import figma from "./assets/images/Skills/flutter.png";
-import sketch from "./assets/images/Skills/sketch.png";
+import sketch from "./assets/images/Skills/java.png";
 import ps from "./assets/images/Skills/github.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/laravel.png";
@@ -95,12 +95,12 @@ export const content = {
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "JavaScript Library",
         logo: reactjs,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
+        name: "Java",
+        para: "OOP Language",
         logo: sketch,
       },
       {
@@ -117,17 +117,17 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I'm highly skilled in web development, specializing in creating responsive, dynamic, and user-friendly applications. I have expertise in using modern frameworks like React and Laravel, ensuring efficient and scalable solutions tailored to client needs.",
         logo: services_logo1,
       },
       {
         title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I am skilled in UI/UX design, creating visually appealing, user-centric interfaces that enhance functionality. With a focus on intuitive navigation and responsive layouts, I ensure seamless and engaging user experiences.",
         logo: services_logo2,
       },
       {
         title: "Mobile Application Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I'm proficient in mobile application development, focusing on building intuitive, feature-rich, and cross-platform apps. With expertise in Flutter, I deliver scalable solutions optimized for performance and user experience across Android and iOS platforms.",
         logo: services_logo3,
       },
     ],
