@@ -13,7 +13,7 @@ import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
 import project1 from "./assets/images/projects/travplan.png";
-import project2 from "./assets/images/projects/img2.png";
+import project2 from "./assets/images/projects/medassist.png";
 import project3 from "./assets/images/projects/drinker.png";
 import person_project from "./assets/images/projects/man.png";
 
@@ -22,7 +22,7 @@ import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
+import Hireme_person from "./assets/images/Hireme/man2.png";
 import Hireme_person2 from "./assets/images/Hireme/man2.png";
 
 // import icons from react-icons
@@ -186,7 +186,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "Are you looking for a dedicated and versatile professional to bring your projects to life? With expertise in web and mobile application development, as well as UI/UX design, I specialize in creating innovative, user friendly solutions tailored to your needs. Whether it's crafting responsive websites, developing feature rich apps, or designing intuitive interfaces, I bring creativity, technical skill, and attention to detail to every project. Let’s collaborate to turn your vision into reality I'm ready to make a difference for your business!",
     btnText: "Hire Me",
   },
   Contact: {
