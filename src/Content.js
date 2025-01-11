@@ -23,7 +23,7 @@ import Hireme_person2 from "./assets/images/Hireme/man2.png";
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
-import { BsInstagram } from "react-icons/bs";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
@@ -116,7 +116,7 @@ export const content = {
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
+        title: "UI / UX DESIGNING",
         para: "I am skilled in UI/UX design, creating visually appealing, user-centric interfaces that enhance functionality. With a focus on intuitive navigation and responsive layouts, I ensure seamless and engaging user experiences.",
         logo: services_logo2,
       },
@@ -177,9 +177,14 @@ export const content = {
         link: "https://wa.me/1234567890",
       },
       {
-        text: "codeaprogram",
-        icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        text: "LinkedIn Profile",
+        icon: BsLinkedin,
+        link: "https://www.linkedin.com/in/vishwa-wijesakare-752040247/",
+      },
+      {
+        text: "Github Profile",
+        icon: BsGithub,
+        link: "https://github.com/Vishwa0416",
       },
     ],
   },
