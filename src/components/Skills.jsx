@@ -36,36 +36,6 @@ const Skills = () => {
 
   return (
     <section className="min-h-fit bg-bg_light_primary" id="skills">
-      {/* modal */}
-      <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        style={customStyles}
-      >
-        <div className="flex items-center gap-2">
-          <img className="h-10" src={selectSkill?.logo} alt="..." />
-          <h6>{selectSkill?.name}</h6>
-        </div>
-        <br />
-        <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
-          <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
-          </li>
-        </ul>
-        <br />
-        <div className="flex justify-end">
-          <button onClick={closeModal} className="btn">
-            Close
-          </button>
-        </div>
-      </Modal>
 
       {/* content */}
       <div className="md:container px-5  py-14">
