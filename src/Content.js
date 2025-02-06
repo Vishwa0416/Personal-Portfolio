@@ -135,17 +135,21 @@ export const content = {
       {
         title: "TravPlan Application",
         image: project1,
+        link: "https://github.com/Vishwa0416/TravPlan", 
       },
       {
         title: "MedAssist Application",
         image: project2,
+        link: "https://github.com/HeshanNavindu-7/MedAssist-frontend",
       },
       {
         title: "Drinker Application",
         image: project3,
+        link: "https://github.com/Vishwa0416/Drinker",
       },
     ],
   },
+  
   Testimonials: {
     title: "Testimonials",
     subtitle: "MY CLIENT REVIEWS",

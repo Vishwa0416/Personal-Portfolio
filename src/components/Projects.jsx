@@ -40,17 +40,22 @@ const Projects = () => {
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
-                key={i}
-                className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
-              >
-                <img src={content.image} alt="..." />
-                <div className="flex flex-col gap-1 mt-2">
-                  <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
-                    READ MORE
-                  </button>
-                </div>
-              </SwiperSlide>
+              key={i}
+              className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
+            >
+              <img src={content.image} alt="..." />
+              <div className="flex flex-col gap-1 mt-2">
+                <h5 className="font-bold font-Poppins">{content.title}</h5>
+                
+                <button 
+                  className="font-bold text-gray self-end"
+                  onClick={() => window.open(content.link, "_blank")}
+                >
+                  READ MORE
+                </button>
+              </div>
+            </SwiperSlide>
+            
             ))}
           </Swiper>
         </div>
