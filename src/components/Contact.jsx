@@ -6,29 +6,35 @@ import toast, { Toaster } from "react-hot-toast";
 const Contact = () => {
   const { Contact } = content;
   const form = useRef();
+  const sendEmail = async (e) => {
+  e.preventDefault();
 
-  // Sending Email
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-      'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY'
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          // Clear all input field values
-          form.current.reset();
-          // Success toast message
-          toast.success("Email send Successfully");
-        },
-        (error) => {
-          console.log(error.text);
-          toast.error(error.text);
-        }
-      );
+  const formData = new FormData(form.current);
+  const data = {
+    from_name: formData.get("from_name"),
+    user_email: formData.get("user_email"),
+    message: formData.get("message"),
   };
+
+  try {
+    const res = await fetch("http://localhost:5000/send-email", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(data),
+    });
+
+    if (res.ok) {
+      form.current.reset();
+      toast.success("Email sent successfully!");
+    } else {
+      toast.error("Failed to send email.");
+    }
+  } catch (err) {
+    console.error(err);
+    toast.error("Error sending email.");
+  }
+};
+
 
   return (
     <section className="bg-dark_primary text-white" id="contact">
