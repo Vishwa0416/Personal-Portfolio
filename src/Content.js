@@ -2,7 +2,7 @@
 import Hero_person from "./assets/images/Hero/man3.png";
 
 import figma from "./assets/images/Skills/flutter.png";
-import sketch from "./assets/images/Skills/java.png";
+import sketch from "./assets/images/Skills/Nest.png";
 import ps from "./assets/images/Skills/github.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/laravel.png";
@@ -94,8 +94,8 @@ export const content = {
         logo: reactjs,
       },
       {
-        name: "Java",
-        para: "OOP Language",
+        name: "NestJS",
+        para: "Backend Language",
         logo: sketch,
       },
       {
