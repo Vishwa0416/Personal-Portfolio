@@ -12,10 +12,10 @@ import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-import project1 from "./assets/images/projects/travplan.png";
-import project2 from "./assets/images/projects/medassist.png";
-import project3 from "./assets/images/projects/drinker.png";
-import person_project from "./assets/images/projects/man.png";
+import project1 from "./assets/images/Projects/travplan.png";
+import project2 from "./assets/images/Projects/medassist.png";
+import project3 from "./assets/images/Projects/drinker.png";
+import person_project from "./assets/images/Projects/man.png";
 
 import Hireme_person from "./assets/images/Hireme/man2.png";
 import Hireme_person2 from "./assets/images/Hireme/man2.png";
