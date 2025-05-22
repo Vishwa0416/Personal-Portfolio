@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "npx --no-install vite build",
     "preview": "vite preview",
     "debug-vite": "dir node_modules\\.bin\\vite",
     "clean": "rm -rf dist"
