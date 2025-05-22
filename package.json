@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "npx vite build",
+    "build": "vite build",
     "preview": "vite preview",
-    "debug-vite": "dir node_modules\\.bin\\vite"
+    "debug-vite": "dir node_modules\\.bin\\vite",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
