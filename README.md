@@ -1,4 +1,4 @@
-# 🌐 Vishwa Wijesekare — Personal Portfolio
+# 🌐 Vishwa Wijesekare's Personal Portfolio
 
 Welcome to my personal developer portfolio! 🚀  
 This is a fully responsive web application built to showcase my projects, technical skills, experience, and achievements as a software engineer and mobile app developer.
